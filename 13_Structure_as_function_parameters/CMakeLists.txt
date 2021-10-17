@@ -1,0 +1,1 @@
+﻿add_executable(13_Structure_as_function_parameters "13_Structure_as_function_parameters.cpp" "13_Structure_as_function_parameters.h")

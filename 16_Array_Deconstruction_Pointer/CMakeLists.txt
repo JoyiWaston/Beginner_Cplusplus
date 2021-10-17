@@ -1,0 +1,1 @@
+﻿add_executable(16_Array_Deconstruction_Pointer "16_Array_Deconstruction_Pointer.cpp" "16_Array_Deconstruction_Pointer.h")

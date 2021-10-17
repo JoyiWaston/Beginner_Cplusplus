@@ -1,0 +1,1 @@
+﻿add_executable(10_Case_study_Three_little_pigs_weigh_themselves "10_Case_study_Three_little_pigs_weigh_themselves.cpp" "10_Case_study_Three_little_pigs_weigh_themselves.h")
