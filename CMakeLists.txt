@@ -89,3 +89,9 @@ add_subdirectory("40_Access_permissions")
 add_subdirectory("41_Permissions_usage")
 
 add_subdirectory("42_Packaging_case")
+
+add_subdirectory("42_Package_case_point_cercle")
+
+add_subdirectory("44_Initialization_and_cleanup_of_objects")
+
+add_subdirectory("45_ClassObject_as_ClassMember")
