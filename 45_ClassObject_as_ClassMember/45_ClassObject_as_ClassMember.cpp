@@ -1,5 +1,5 @@
 ﻿// 45_ClassObject_as_ClassMember.cpp: 目标的源文件。
-//类对象作为类成员,静态成员变量static，静态成员函数
+//类对象作为类成员,静态成员变量static，静态成员函数,成员变量和成员函数分开存储
 
 #include "45_ClassObject_as_ClassMember.h"
 
@@ -118,6 +118,8 @@ void test04()
 	//Guy::func2();   //类外不可以访问私有静态成员函数
 
 }
+//空对象占用空间为1
+
 
 
 int main()

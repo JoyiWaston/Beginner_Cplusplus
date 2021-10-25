@@ -95,3 +95,9 @@ add_subdirectory("42_Package_case_point_cercle")
 add_subdirectory("44_Initialization_and_cleanup_of_objects")
 
 add_subdirectory("45_ClassObject_as_ClassMember")
+
+add_subdirectory("46_this_pointer")
+
+add_subdirectory("47_class_friend")
+
+add_subdirectory("48_Operator_overloading")
