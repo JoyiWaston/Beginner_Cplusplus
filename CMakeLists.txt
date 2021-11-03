@@ -101,3 +101,5 @@ add_subdirectory("46_this_pointer")
 add_subdirectory("47_class_friend")
 
 add_subdirectory("48_Operator_overloading")
+
+add_subdirectory("49_inherit")
