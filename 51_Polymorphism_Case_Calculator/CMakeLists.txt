@@ -1,0 +1,1 @@
+﻿add_executable(51_Polymorphism_Case_Calculator "51_Polymorphism_Case_Calculator.cpp" "51_Polymorphism_Case_Calculator.h")

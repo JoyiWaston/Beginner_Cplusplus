@@ -103,3 +103,11 @@ add_subdirectory("47_class_friend")
 add_subdirectory("48_Operator_overloading")
 
 add_subdirectory("49_inherit")
+
+add_subdirectory("50_Polymorphism")
+
+add_subdirectory("51_Polymorphism_Case_Calculator")
+
+add_subdirectory("52_Polymorphism_Case_Drink")
+
+add_subdirectory("53_Polymorphism_Case_ComputerAssembly")

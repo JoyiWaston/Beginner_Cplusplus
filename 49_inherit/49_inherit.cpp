@@ -73,13 +73,104 @@ public:
 	}
 };
 
+//菱形继承
+//动物类
+class Animal
+{
+public:
+	Animal();
+	~Animal();
+	int m_Age;
 
+private:
 
+};
+
+Animal::Animal()
+{
+}
+
+Animal::~Animal()
+{
+}
+//羊类
+//利用虚继承virtual解决菱形继承问题
+//animal称为虚基类	
+class sheep : virtual public Animal
+{
+public:
+	sheep();
+	~sheep();
+
+private:
+
+};
+
+sheep::sheep()
+{
+}
+
+sheep::~sheep()
+{
+}
+//驼类
+class camel : virtual public Animal
+{
+public:
+	camel();
+	~camel();
+
+private:
+
+};
+
+camel::camel()
+{
+}
+
+camel::~camel()
+{
+}
+//羊驼类
+class Alpaca : public sheep, public camel
+{
+public:
+	Alpaca();
+	~Alpaca();
+
+private:
+
+};
+
+Alpaca::Alpaca()
+{
+}
+
+Alpaca::~Alpaca()
+{
+}
+
+void test03()
+{
+	Alpaca cnm;
+
+	//虚基类继承得到的共同数据类似静态成员变量，只有一份
+	cnm.sheep::m_Age = 18;
+	cnm.camel::m_Age = 28;
+	//当菱形继承，两个父类拥有相同的数据，需要加作用域用以区分
+	cout << "cnm.sheep::m_Age = " << cnm.sheep::m_Age << endl;
+	cout << "cnm.camel::m_Age = " << cnm.camel::m_Age << endl;
+	//vbptr 虚基类指针指向同一块内存
+	cout << "cnm.m_Age = " << cnm.m_Age << endl;
+
+	//m_Age只需一份数据即可，菱形继承导致数据有两份，资源浪费
+}
 
 int main()
 {
 	//test01();
-	test02();
+	//test02();
+	test03();
 
 	return 0;
 }
