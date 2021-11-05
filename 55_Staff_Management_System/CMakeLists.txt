@@ -1,0 +1,1 @@
+﻿add_executable(55_Staff_Management_System "55_Staff_Management_System.cpp" "55_Staff_Management_System.h" "workerManager.h" "workerManager.cpp" "worker.h" "employee.cpp" "employee.h" "manager.cpp" "manager.h" "boss.cpp" "boss.h")

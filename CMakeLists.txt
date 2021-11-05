@@ -111,3 +111,7 @@ add_subdirectory("51_Polymorphism_Case_Calculator")
 add_subdirectory("52_Polymorphism_Case_Drink")
 
 add_subdirectory("53_Polymorphism_Case_ComputerAssembly")
+
+add_subdirectory("54_File_read_and_write")
+
+add_subdirectory("55_Staff_Management_System")
