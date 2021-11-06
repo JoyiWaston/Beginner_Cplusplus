@@ -25,36 +25,41 @@ int main()
 	while (true)
 	{
 		//调用展示菜单的成员函数
-		root.showMenu();
+		root.ShowMenu();
 		cout << "请您输入管理员选项：" << endl;
 		cin >> command;
 
 		switch (command)
 		{
 			case 0://退出系统
-				root.exitSystem();
+				root.ExitSystem();
 				break;
 			case 1://添加职工
 				root.Add_Emp();
 				break;
 			case 2://显示职工
+				root.Show_Emp();
 				break;
 			case 3://删除职工
+				root.Del_Emp();
 				break;
 			case 4://修改职工
+				root.Mod_Emp();
 				break;
 			case 5://查找职工
+				root.Find_Emp();
 				break;
 			case 6://排序职工
+				root.Sort_Emp();
 				break;
 			case 7://清空文件
+				root.Clean_File();
 				break;
 		
 			default:
 				system("cls");
 				break;
 		}
-
 	}
 	system("pause");
 	return 0;
