@@ -35,7 +35,7 @@ void test01()
 
 	MyArray<int> array2(array1);
 	array2.Pop_back();
-	cout << "array2打印输出：" << endl;
+	cout << "array2尾删后打印输出：" << endl;
 	printIntArray(array2);
 	cout << "array2的大小：" << array2.getSize() << endl;
 	cout << "array2的容量：" << array2.getCapacity() << endl;
@@ -44,7 +44,7 @@ void test01()
 //测试自定义数据类型
 class Person {
 public:
-	Person() {}
+	Person() {};
 	Person(string name, int age) {
 		this->m_Name = name;
 		this->m_Age = age;
@@ -66,11 +66,11 @@ void test02()
 {
 	//创建数组
 	MyArray<Person> pArray(10);
-	Person p1("孙悟空", 30);
-	Person p2("韩信", 20);
-	Person p3("妲己", 18);
-	Person p4("王昭君", 15);
-	Person p5("赵云", 24);
+	Person p1("孙悟空\t", 30);
+	Person p2("韩信\t", 20);
+	Person p3("妲己\t", 18);
+	Person p4("王昭君\t", 15);
+	Person p5("赵云\t", 24);
 
 	//插入数据
 	pArray.Push_back(p1);
@@ -88,8 +88,8 @@ void test02()
 
 int main() {
 
-	//test01();
-
+	test01();
+	cout << "--------------------------" << endl;
 	test02();
 
 	system("pause");
