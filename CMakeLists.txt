@@ -119,3 +119,5 @@ add_subdirectory("55_Staff_Management_System")
 add_subdirectory("56_Template")
 
 add_subdirectory("57_Template_case")
+
+add_subdirectory("58_STL_Standard_template_library")

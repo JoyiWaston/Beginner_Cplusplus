@@ -1,0 +1,1 @@
+﻿add_executable(58_STL_Standard_template_library "58_STL_Standard_template_library.cpp" "58_STL_Standard_template_library.h")
