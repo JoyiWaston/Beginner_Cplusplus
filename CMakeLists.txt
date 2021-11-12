@@ -127,3 +127,13 @@ add_subdirectory("59_STL_String")
 add_subdirectory("60_STL_Vector")
 
 add_subdirectory("61_STL_Deque")
+
+add_subdirectory("62_STL_Stack")
+
+add_subdirectory("63_STL_queue")
+
+add_subdirectory("64_STL_List")
+
+add_subdirectory("65_STL_Set")
+
+add_subdirectory("66_STL_Map")
