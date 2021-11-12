@@ -123,3 +123,5 @@ add_subdirectory("57_Template_case")
 add_subdirectory("58_STL_Standard_template_library")
 
 add_subdirectory("59_STL_String")
+
+add_subdirectory("60_STL_Vector")
