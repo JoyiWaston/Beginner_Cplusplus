@@ -137,3 +137,11 @@ add_subdirectory("64_STL_List")
 add_subdirectory("65_STL_Set")
 
 add_subdirectory("66_STL_Map")
+
+add_subdirectory("67_Function_Object")
+
+add_subdirectory("68_STL_Predicate")
+
+add_subdirectory("69_STL_Built-in_function_objects")
+
+add_subdirectory("70_STL_Integrated_case_Speech")

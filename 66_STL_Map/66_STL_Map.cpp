@@ -244,8 +244,7 @@ void showWorkerByGourp(multimap<int, Worker>& m)
 
 	for (; pos != m.end() && index < count; pos++, index++)
 	{
-		cout << "姓名： " << pos->second.m_Name << " 工资： " << pos->second.m_Salary <<
-			endl;
+		cout << "姓名： " << pos->second.m_Name << " 工资： " << pos->second.m_Salary << endl;
 	}
 
 	cout << "----------------------" << endl;
@@ -257,8 +256,7 @@ void showWorkerByGourp(multimap<int, Worker>& m)
 
 	for (; pos != m.end() && index < count; pos++, index++)
 	{
-		cout << "姓名： " << pos->second.m_Name << " 工资： " << pos->second.m_Salary <<
-			endl;
+		cout << "姓名： " << pos->second.m_Name << " 工资： " << pos->second.m_Salary << endl;
 	}
 
 	cout << "----------------------" << endl;
@@ -270,8 +268,7 @@ void showWorkerByGourp(multimap<int, Worker>& m)
 
 	for (; pos != m.end() && index < count; pos++, index++)
 	{
-		cout << "姓名： " << pos->second.m_Name << " 工资： " << pos->second.m_Salary <<
-			endl;
+		cout << "姓名： " << pos->second.m_Name << " 工资： " << pos->second.m_Salary << endl;
 	}
 }
 
